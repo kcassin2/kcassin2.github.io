@@ -1,5 +1,10 @@
 
+.grid {
 
+  width: 40px;
+  height: 100px;
+  display: grid;
+}
 
 
 
