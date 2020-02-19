@@ -9,6 +9,7 @@
 
 
 h1 {
+  position: center; 
   color: black;
   font-size: 42px;
   font-weight: 600;
