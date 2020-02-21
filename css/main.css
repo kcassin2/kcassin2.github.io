@@ -9,7 +9,9 @@ body {
 img.displayed {
     display: block;
     margin-left: auto;
-    margin-right: auto; }
+    margin-right: auto; 
+  position: absolute; top: 200px; left: 0; width: 100%;
+}
 
 
 
