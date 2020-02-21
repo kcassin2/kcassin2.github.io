@@ -87,7 +87,7 @@ p {
 }
 .image {
 
-position: relative; width: 100%;
+position: absolute; width: 100%;
 
 }
 
