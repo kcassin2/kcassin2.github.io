@@ -69,31 +69,30 @@ p {
   padding-left: 10px;
   text-transform: uppercase;
 }
+.image {
 
-.caption {
+position: relative; width: 100%;
+
+}
+
+h3 {
+
+position: absolute; top: 200px; left: 0; width: 100%;
   display: block;
-  font-family: 'Playfair Display', serif;
+ font-family: 'Playfair Display', serif;
   font-size: 14px;
   font-style: italic;
-  line-height: 14px;
+   line-height: 10px;
   margin-left: 20px;
-  padding: 10px;
-  position: relative;
   top: 80%;
   width: 60%;
   background-color: white;
   color: black;
-  opacity: 0.75;
+  opacity: 0.77;
+  
 }
+
 
 .content {
   padding: 40px;
-}
-
-.image {
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2015/11/second-life.jpg");
-  background-size: cover;
-  background-position: center;
-  height: 300px;
-  
 }
