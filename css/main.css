@@ -24,6 +24,14 @@ border-left:5px solid #FFF;
   
 }
 
+.header {
+  padding: 60px;
+  text-align: center;
+  background: ##ffccb3;
+  color: white;
+  font-size: 30px;
+}
+
 
 
 
