@@ -6,16 +6,10 @@ body {
     width: 70%;
 }
 
-p.dotted {outline-style: double;
+p.dotted {
+ outline-style: double;
+ outline-color: black;
 }
-
-
-
-
-
-
-
-
 
 
 
