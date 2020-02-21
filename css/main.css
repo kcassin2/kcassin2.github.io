@@ -2,13 +2,20 @@ body {
   background: #441E30;
   background:linear-gradient(-45deg, #5667D, #1E30);
   background: linear-gradient(-45deg, #5655D, #141E30);
-  margin: 30;
-  padding: 30;
+  margin: 70;
+  padding: 70;
 }
 
 blockquote {
-   color: #FFF ; 
-    border-left: 5px solid #FFF;
+   max-width: 550px;
+text-align: center;
+margin: 20px;
+padding: 20px;
+font-family: italic;
+font-size: 20px;
+color: black;
+background: #ccd;
+border-left:5px solid #FFF;
   
 }
 
