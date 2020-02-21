@@ -1,25 +1,17 @@
- 
-
-
 body {
-    margin: 50px auto;
-    width: 70%;
+  /* Old browsers */
+  background: #441E30;
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(-45deg, #5667D, #1E30);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(-45deg, #5655D, #141E30);
+  margin: 0;
+  padding: 0;
 }
-
 p.dotted {
  outline-style: double;
  outline-color: black;
 }
-
-
-
-
-
-
-
-
-
-
 
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -32,58 +24,73 @@ nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
 }
-a {
-    text-decoration: none;
-    color: #999;
-  text-align: center;
-}
-a:hover {
-    text-decoration: underline;
-}
+
+
 h1 {
-    
   color: #FFF;
-  font-size: 2em;
-  padding-top: 100px;
+  font-size: 50px;
+  padding-top: 30px;
   width: 100%;
   font-family: Optima;
   text-align: center;
 }
 
+h2 {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 100;
+  font-size: 17px;
+  line-height:0px;
+  padding-bottom: 50px;
+  text-align: center;
+  width: 70%;
+  font-family: Times;
+}
+
 p {
-     font-family:Optima;
- font-size: 20px;
-  padding-top: 80px;
-  padding-right: 30px;
-  padding-bottom: 80px;
-  padding-left: 80px;
-    color: #333;
- text-align: center;
-}
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
- text-align: center;
+  color: #FFF;
+  line-height: 1.3em;
+  text-align: left;
+  width: 100%;
+  font-family: Times;
+  font-size: 18px;
+  font-weight: bold;
 }
 
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
-  text-align: center;
+.byline {
+  font-family: Helvetica;
+  color: rgba(255, 255, 255, 0.5);
+  float: left;
+  font-size: 14px;
+  padding-left: 10px;
+  text-transform: uppercase;
 }
 
-.center {
+.caption {
   display: block;
- padding-top: 60px;
-  padding-right: 30px;
-  padding-bottom: 45px;
-  padding-left: 80px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+  font-family: 'Playfair Display', serif;
+  font-size: 14px;
+  font-style: italic;
+  line-height: 14px;
+  margin-left: 20px;
+  padding: 10px;
+  position: relative;
+  top: 80%;
+  width: 60%;
+  background-color: white;
+  color: black;
+  opacity: 0.75;
 }
 
-ul.posts li {
-    list-style: none;
-  text-align: center;
+.content {
+  padding: 40px;
 }
+
+.image {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2015/11/second-life.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+}
+
+
