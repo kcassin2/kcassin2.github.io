@@ -14,18 +14,7 @@ img.displayed {
 
 
 
-blockquote {
-   max-width: 550px;
-text-align: center;
-margin: 20px;
-padding: 20px;
-font-family: italic;
-font-size: 20px;
-color: black;
-background: #ccd;
-border-left:5px solid #FFF;
-  
-}
+
 
 nav ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
