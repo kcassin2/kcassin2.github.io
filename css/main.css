@@ -93,7 +93,7 @@ position: relative; width: 100%;
 
 h3 {
 
-
+position: absolute; top: 200px; left: 0; width: 100%;
   display: block;
  font-family: 'Playfair Display', serif;
   font-size: 14px;
