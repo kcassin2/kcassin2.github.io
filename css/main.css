@@ -2,9 +2,17 @@ body {
   background: #441E30;
   background:linear-gradient(-45deg, #5667D, #1E30);
   background: linear-gradient(-45deg, #5655D, #141E30);
-  margin: 70;
-  padding: 70;
+  margin: 100;
+  padding: 100;
 }
+
+img.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+
+
+
 
 blockquote {
    max-width: 550px;
