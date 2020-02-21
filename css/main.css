@@ -12,17 +12,25 @@ p.dotted {
  outline-style: double;
  outline-color: black;
 }
+blockquote {
+    border-left: 5px solid #FFF
+      
+  
+}
 
-nav ul, footer ul {
+nav ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
     font-weight: bold;
  text-align: center;
+  position:absolute;
+  
 }
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
+
 }
 
 
@@ -45,16 +53,18 @@ h2 {
   text-align: center;
   width: 70%;
   font-family: Times;
+  
 }
 
 p {
   color: #FFF;
   line-height: 1.3em;
-  text-align: left;
+  text-align: center;
   width: 100%;
   font-family: Times;
   font-size: 18px;
   font-weight: bold;
+  
 }
 
 .byline {
@@ -91,6 +101,5 @@ p {
   background-size: cover;
   background-position: center;
   height: 300px;
+  
 }
-
-
