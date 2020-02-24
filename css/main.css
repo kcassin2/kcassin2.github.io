@@ -30,7 +30,7 @@ margin: 20px;
 padding: 20px;
 font-family: italic;
 font-size: 20px;
-color: black;
+color: white;
 background: #ccd;
 border-left:5px solid #FFF;
   
@@ -67,6 +67,7 @@ nav ul li {
  footer ul  li{
     display: inline;
     margin-right: 20px;
+   color:white;
 
 }
 
